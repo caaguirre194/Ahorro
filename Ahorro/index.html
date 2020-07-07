@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./css/normalize.css" />
+  <link rel="stylesheet" href="./css/theme.css" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <title>Ahorro</title>
+</head>
+
+<body class="d-flex flex-space-between ml-auto align-items-center">
+  <div id="container" class="d-flex flex-column w-100">
+
+    <!-- title -->
+
+    <div id="header-home" class="w-100 d-flex flex-row align-items-center">
+      <button id="btn-back" class="btn back-icon"></button>
+      <label id="txt-header" class="subtitle2 color75"> Hola, Camila </label>
+      <button id="btn-notification" class="btn notification-icon ml-auto"></button>
+    </div>
+
+    <!-- invest card -->
+
+    <div id="invest_card">
+      <div id="content_card" class="card">
+        <label id="card-title" class="subtitle2 color-white align-items-center">Eres estratega</label>
+        <label id="card-subtitle" class="d-flex normal2 color-white">Tu saldo</label>
+        <label id="card-value" class="color-white">$1.570.000</label>
+      </div>
+    </div>
+
+    <!-- invest summary -->
+
+    <div id="invest-summary" class="card white d-flex flex-column flex-space-between">
+      <div class="w-100 d-flex flex-row flex-space-between">
+        <label class="normal1 color75">Inversión</label>
+        <label class="normal2 color75 align-right">$1.600.000</label>
+      </div>
+      <div class="divider"></div>
+      <div class="w-100 d-flex flex-row flex-space-between">
+        <label class="normal1 color75">Rendimiento</label>
+        <label class="normal2 color75 align-right">-$30.000</label>
+      </div>
+    </div>
+
+    <!-- goals -->
+
+    <div class="w-100 d-flex flex-row section align-items-center">
+      <label class="subtitle2 color75" id="goals-title">Tus metas</label>
+      <button id="btn-add-goal" class="btn add-circle-outline-icon ml-auto"></button>
+    </div>
+
+    <div class="d-flex flex-row flex-space-between w-100">
+      <div class="goal-view d-flex flex-column card white">
+        <img src="./images/goal_view/IMG-1.png" alt="" class="goal-img" />
+        <label class="goal-description d-flex normal2 color50 align-items-center">Viaje a islas canarias</label>
+        <div class="divider"></div>
+        <div class="goal-data d-flex flex-row flex-space-between">
+          <div id="goals-donut1"></div>
+          <div class="goal-values">
+            <label class="goal-value1 caption2 color-blue">$1.630.000</label>
+            <label class="goal-value2 menu1 color50">$8.000.000</label>
+          </div>
+        </div>
+      </div>
+      <div class="goal-view d-flex flex-column card white">
+        <img src="./images/goal_view/IMG.png" alt="" class="goal-img" />
+        <label class="goal-description d-flex normal2 color50 align-items-center">Macbook Pro</label>
+        <div class="divider"></div>
+        <div class="goal-data d-flex flex-row flex-space-between">
+          <div id="goals-donut2"></div>
+          <div class="goal-values">
+            <label class="goal-value1 caption2 color-blue">$0</label>
+            <label class="goal-value2 menu1 color50">$7.000.000</label>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- portfolio -->
+
+    <div class="w-100 d-flex flex-row section align-items-center">
+      <label class="subtitle2 color75" id="portfolio-title">Conoce tu portafolio</label>
+      <button id="btn-delivery" class="btn-success color-success menu2 ml-auto">Estratega</button>
+    </div>
+
+    <div id="portfolio-view" class="card white d-flex flex-column flex-space-between">
+      <div class="d-flex flex-row flex-space-between">
+        <div id="portfolio-donut"></div>
+        <div class="d-flex flex-column flex-space-between">
+          <div id="portfolio-data" class="d-flex flex-column flex-space-between">
+            <div class="d-flex flex-row flex-space-between">
+              <img src="./images/portfolio_view/logo.png" alt="" id="" />
+              <span id="portfolio-badge" class="menu2 color-white success d-flex flex-row">15%</span>
+            </div>
+            <label id="txt-data-1" class="caption1 color75">FCI Old Mutual Efectivo</label>
+            <label id="txt-data-2" class="caption2 color75">$240.000</label>
+            <label id="txt-data-3" class="menu2 color-success">Tipo de activo</label>
+            <label id="txt-data-4" class="menu1 color75">Renta fija Depósito a la fija</label>
+          </div>
+          <div id="portfolio-nav" class="d-flex flex-row flex-space-between">
+            <button class="btn-portfolio-nav btn chevron-left-icon"></button>
+            <button class="btn-portfolio-nav btn chevron-right-icon"></button>
+          </div>
+        </div>
+      </div>
+      <p id="portfolio-description" class="menu1 color75 m-0">
+        Tu dinero se invierte de la forma más eficiente de acuerdo al perfil
+        de riesgo asignado por nuestro RoboAdvisor.
+      </p>
+    </div>
+
+    <!-- media -->
+
+    <label class="subtitle2 color75 section" id="media-title">Los P*t@s del ahorro</label>
+    <div id="media" class="d-flex card white">
+      <p id="media-description" class="color-white caption1 m-0">
+        Conoce como nuestro RoboAdvisor crea el mejor portafolio de inversión
+        para ti.
+      </p>
+      <label id="media-title-video" class="title2 color-white">Esto es AHORRO</label>
+    </div>
+    <img src="./images/media/Counter.svg" alt="" id="media-counter" />
+
+    <!-- blog -->
+
+    <div id="blog" class="card white d-flex flex-column">
+      <div class="blog-item d-flex flex-row flex-space-between align-items-center">
+        <div class="blog-description m-0">
+          <label class="normal1 color50">10 gastos que debes evitar</label>
+          <p class="menu1 color75 m-0">
+            Aunque el 66% de los adultos recibió educación para el ahorro, apenas el 44% ahorra de manera formal.
+          </p>
+        </div>
+        <img src="./images/blog/home/blog/IMG-2.png" class="img-blog" alt="...">
+      </div>
+      <div class="divider"></div>
+      <div class="blog-item d-flex flex-row flex-space-between align-items-center">
+        <div class="blog-description">
+          <label class="normal1 color50">10 gastos que debes evitar</label>
+          <p class="menu1 color75">
+            Aunque el 66% de los adultos recibió educación para el ahorro, apenas el 44% ahorra de manera formal.
+          </p>
+        </div>
+        <img src="./images/blog/home/blog/IMG-1.png" class="img-blog" alt="...">
+      </div>
+      <div class="divider"></div>
+      <div class="blog-item d-flex flex-row flex-space-between align-items-center">
+        <div class="blog-description">
+          <label class="normal1 color50">10 gastos que debes evitar</label>
+          <p class="menu1 color75">
+            Aunque el 66% de los adultos recibió educación para el ahorro, apenas el 44% ahorra de manera formal.
+          </p>
+        </div>
+        <img src="./images/blog/home/blog/IMG.png" class="img-blog" alt="...">
+      </div>
+      </img>
+    </div>
+
+    <!-- menu -->
+
+    <div id="menu" class="d-flex flex-row w-100">
+
+      <div id="menu-container" class="w-100 d-flex align-items-center">
+        <div id="menu-options" class="d-flex flex-row flex-space-between w-100 align-items-center">
+          <div class="menu-option d-flex flex-column align-items-center">
+            <button class="btn home-icon menu-icon"></button>
+            <label class="menu1 color-blue">Inicio</label>
+          </div>
+          <div class="menu-option d-flex flex-column align-items-center">
+            <button class="btn list-bulleted-icon menu-icon"></button>
+            <label class="menu1 color25">Historial</label>
+          </div>
+          <div class="menu-option d-flex flex-column align-items-center mt-auto">
+            <button id="menu-add" class="btn add-icon"></button>
+            <label class="menu1 color25">Ahorrar</label>
+          </div>
+          <div class="menu-option d-flex flex-column align-items-center">
+            <button class="btn account-circle-icon menu-icon"></button>
+            <label class="menu1 color25">Mi perfil</label>
+          </div>
+          <div class="menu-option d-flex flex-column align-items-center">
+            <button class="btn more-horiz-icon menu-icon"></button>
+            <label class="menu1 color25">Más</label>
+          </div>
+        </div>
+      </div>
+    </div>
+
+</body>
+
+</html>

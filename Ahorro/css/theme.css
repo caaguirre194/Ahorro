@@ -1,0 +1,214 @@
+/*! Carlos Andrés Aguirre Cañas */
+
+/* theme
+   ========================================================================== */
+
+.title2 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 33px;
+  display: flex;
+  align-items: center;
+}
+
+.caption1 {
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.03em;
+}
+
+.caption2 {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: -0.03em;
+}
+
+.menu1 {
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 14px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.03em;
+}
+
+.menu2 {
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 14px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.03em;
+}
+
+.subtitle2 {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  display: flex;
+  align-items: center;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.normal1 {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.normal2 {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.section {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.card {
+  box-shadow: 0px 8px 20px rgba(197, 166, 236, 0.05);
+  border-radius: 20px;
+}
+
+.divider {
+  position: static;
+  width: 100%;
+  border-top: 1px solid #faf9fd;
+}
+
+/* buttons
+   ========================================================================== */
+
+.btn {
+  border: none;
+  background-color: rgba(255, 0, 0, 0);
+  cursor: pointer;
+  outline: none;
+  padding: 0;
+}
+
+.btn-success {
+  background: #e4ffee;
+  border: 0.5px solid #41cf69;
+  box-sizing: border-box;
+  border-radius: 10px;
+  cursor: pointer;
+  outline: none;
+}
+
+.btn:hover,
+.btn-success:hover {
+  -webkit-transform: scale(1.25);
+  -moz-transform: scale(1.25);
+  -ms-transform: scale(1.25);
+  -o-transform: scale(1.25);
+  transform: scale(1.25);
+}
+
+/* icons
+   ========================================================================== */
+
+.notification-icon {
+  background-image: url(../images/icon/social/notifications_24px.svg);
+  background-repeat: no-repeat;
+}
+
+.play-icon {
+  background-image: url(../images/icon/action/play_circle_outline_24px.svg);
+  background-repeat: no-repeat;
+}
+
+.back-icon {
+  background-image: url(../images/icon/navigation/arrow_back_ios_24px.svg);
+  background-repeat: no-repeat;
+}
+
+.add-circle-outline-icon {
+  background-image: url(../images/icon/content/add_circle_outline_24px.svg);
+  background-repeat: no-repeat;
+}
+
+.delivery-icon {
+  background-image: url(../images/icon/content/add_circle_outline_24px.svg);
+  background-repeat: no-repeat;
+}
+
+.chevron-left-icon {
+  background-image: url(../images/portfolio_view/icon/navigation/chevron_left_24px.svg);
+  background-repeat: no-repeat;
+}
+
+.chevron-right-icon {
+  background-image: url(../images/portfolio_view/icon/navigation/chevron_right_24px.svg);
+  background-repeat: no-repeat;
+}
+
+.home-icon {
+  background-image: url(../images/icon/action/home_24px.svg);
+  background-repeat: no-repeat;
+}
+
+.list-bulleted-icon {
+  background-image: url(../images/icon/action/format_list_bulleted_24px.svg);
+  background-repeat: no-repeat;
+}
+
+.account-circle-icon {
+  background-image: url(../images/icon/action/account_circle_24px.svg);
+  background-repeat: no-repeat;
+}
+
+.more-horiz-icon {
+  background-image: url(../images/icon/action/more_horiz_24px.svg);
+  background-repeat: no-repeat;
+}
+
+.add-icon {
+  background-image: url(../images/icon/action/invest.svg);
+  background-repeat: no-repeat;
+}
+
+/* colors
+   ========================================================================== */
+
+.color25 {
+  color: #a99dc6;
+}
+
+.color50 {
+  color: #817699;
+}
+
+.color75 {
+  color: #58506b;
+}
+
+.color-white {
+  color: #ffffff;
+}
+
+.color-blue {
+  color: #54d1ed;
+}
+
+.color-success {
+  color: #41cf69;
+}
+
+.white {
+  background: #ffffff;
+}
+
+.success {
+  background: #41cf69;
+}
